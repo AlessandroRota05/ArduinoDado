@@ -15,7 +15,9 @@ Il funzionamento dettagliato del codice si trova nella sezione apposita.
 ![Schema topografico](schematopografico.jpg)
 
 ## 📄 Licenza  
-Questo progetto è rilasciato sotto la licenza [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0).
+Questo progetto é protetto dalla licenza Apache License 2.0. Guarda il file LICENSE per ulteriori dettagli. Sentiti libero di usarlo, modificarlo e condividerlo.
+
+Disclaimer: L'autore declina ogni responsabilità per qualsiasi danno diretto o indiretto, perdita di dati o uso improprio derivante dall'utilizzo di questo software. Usalo a tuo rischio.
 
 ---
 
@@ -28,8 +30,7 @@ Questo progetto è rilasciato sotto la licenza [Apache License 2.0](https://www.
 
 ---
 
-## 📬 Autore  
+## 📬 Autore: 
 
 Creato con l'aiuto di molta caffeina da Ale
----
 
