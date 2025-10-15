@@ -9,9 +9,12 @@ Il codice utilizza funzioni dedicate per accendere i LED in configurazioni diver
 
 Il funzionamento dettagliato del codice si trova nella sezione apposita.
 
-## 🔌 Schema elettrico e topografico  
-
+## 🔌 Schema circuitale, elettrico e topografico  
+Schema circuitale
+![Schema circuitale](schemacircuitale.jpg) 
+Schema elettrico
 ![Schema elettrico](schemaelettrico.jpg)  
+Schema topografico
 ![Schema topografico](schematopografico.jpg)
 
 ## 📄 Licenza  
