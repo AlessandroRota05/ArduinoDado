@@ -32,5 +32,5 @@ Disclaimer: L'autore declina ogni responsabilità per qualsiasi danno diretto o 
 
 ## 📬 Autore: 
 
-Creato con l'aiuto di molta caffeina da Ale
+Creato con l'aiuto di molta caffeina da Ale, per gli amici questo dado si chiama Paco, Paco il dado
 
