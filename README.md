@@ -26,55 +26,38 @@ Disclaimer: L'autore declina ogni responsabilità per qualsiasi danno diretto o 
 
 ## 🚀 Come usare
 
-Materiali necessari
-Scheda Arduino (uno qualsiasi modello compatibile)
+### Materiali necessari
+- **Scheda Arduino** (qualsiasi modello compatibile)
+- **Display a 7 segmenti**
+- **3 LED** per il conto alla rovescia
+- **Resistenze** (circa 220Ω o 330Ω) per limitare la corrente ai LED
+- **Cavi jumper** per i collegamenti
+- **Breadboard** (opzionale, per facilitare l'assemblaggio)
+- **Alimentazione** (USB o adattatore)
 
-Display 7 segmenti
+### Schema dei collegamenti
+**Passo 1: Collegare i LED ai pin Arduino**  
+- Collega i LED ai pin indicati nel codice (13, 12, 11, 10, 9, 8, 7, 6) che rappresentano i segmenti A-H.  
+- Inserisci una resistenza in serie a ogni LED per proteggerli.
 
-3 LED per il conto alla rovescia
+**Passo 2: Collegare i LED del conto alla rovescia**  
+- Collega i LED ai pin 3, 4 e 5.  
+- Anche in questo caso, utilizza resistenze in serie.
 
-Resistenze (circa 220Ω o 330Ω per limitare la corrente ai LED)
+**Diagramma**  
+Puoi seguire gli schemi forniti nel README o creare un diagramma con i collegamenti.
 
-Cavi jumper per i collegamenti
+### Come preparare il codice
+- **Creare il file `.ino`**  
+  - Copia tutto il codice, incollalo in un nuovo file di testo.  
+  - Salva il file con nome `dado_simulatore.ino`.  
+  - Aprilo con Arduino IDE.  
+  - Carica sulla scheda Arduino.
 
-Breadboard (facoltativa, per facilitarne l'assemblaggio)
-
-Alimentazione (USB o adattatore)
-
-Schema dei collegamenti
-Passo 1: Collegare i LED ai pin Arduino
-Connetti i LED ai pin indicati nel codice (13, 12, 11, 10, 9, 8, 7, 6 per i segmenti A-H).
-
-Inserisci una resistenza in serie a ogni LED per proteggere i componenti.
-
-Assicurati che i terminali più lunghi siano collegati a + (Vcc) e quelli più corti a terra tramite la resistenza.
-
-Passo 2: Collegare i LED del conto alla rovescia
-Collega i LED ai pin 3, 4, 5.
-
-Segui lo stesso principio di resistenza in serie.
-
-Diagramma
-puoi seguire i vari schemi forniti nel readme
-
-Come preparare il codice
-Creare il file .ino
-Copia tutto il codice fornito.
-
-Incollalo in un nuovo file di testo.
-
-Salva con nome dado_simulatore.ino.
-
-Apri con Arduino IDE.
-
-Carica sulla scheda Arduino collegata.
-
-Ricorda
-Usa le stesse connessioni dei pin definiti nel codice.
-
-Assicurati che le resistenze siano corrette per i LED.
-
-Verifica che i collegamenti siano saldi prima di alimentare.
+### Ricorda
+- Usa le stesse connessioni dei pin definiti nel codice.  
+- Verifica che le resistenze siano correttamente inserite.  
+- Assicurati che i collegamenti siano saldi prima di alimentare.
 
 ---
 
