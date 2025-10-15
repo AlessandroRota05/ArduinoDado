@@ -26,10 +26,55 @@ Disclaimer: L'autore declina ogni responsabilità per qualsiasi danno diretto o 
 
 ## 🚀 Come usare
 
-- Collega i LED ai pin digitali indicati nel codice come A-H (13, 12, 11, 10, 9, 8, 7, 6) per visualizzare il numero.  
-- Collega i LED ai pin 3, 4 e 5 per il conto alla rovescia prima di ogni lancio.  
-- Carica lo sketch sulla tua scheda Arduino.  
-- Monitora il risultato che cambia casualmente ogni ciclo con un breve conto alla rovescia.  
+Materiali necessari
+Scheda Arduino (uno qualsiasi modello compatibile)
+
+Display 7 segmenti
+
+3 LED per il conto alla rovescia
+
+Resistenze (circa 220Ω o 330Ω per limitare la corrente ai LED)
+
+Cavi jumper per i collegamenti
+
+Breadboard (facoltativa, per facilitarne l'assemblaggio)
+
+Alimentazione (USB o adattatore)
+
+Schema dei collegamenti
+Passo 1: Collegare i LED ai pin Arduino
+Connetti i LED ai pin indicati nel codice (13, 12, 11, 10, 9, 8, 7, 6 per i segmenti A-H).
+
+Inserisci una resistenza in serie a ogni LED per proteggere i componenti.
+
+Assicurati che i terminali più lunghi siano collegati a + (Vcc) e quelli più corti a terra tramite la resistenza.
+
+Passo 2: Collegare i LED del conto alla rovescia
+Collega i LED ai pin 3, 4, 5.
+
+Segui lo stesso principio di resistenza in serie.
+
+Diagramma
+puoi seguire i vari schemi forniti nel readme
+
+Come preparare il codice
+Creare il file .ino
+Copia tutto il codice fornito.
+
+Incollalo in un nuovo file di testo.
+
+Salva con nome dado_simulatore.ino.
+
+Apri con Arduino IDE.
+
+Carica sulla scheda Arduino collegata.
+
+Ricorda
+Usa le stesse connessioni dei pin definiti nel codice.
+
+Assicurati che le resistenze siano corrette per i LED.
+
+Verifica che i collegamenti siano saldi prima di alimentare.
 
 ---
 
