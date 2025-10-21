@@ -31,6 +31,9 @@ void setup() {
   for (int i = 0; i < 3; i++) {
     pinMode(countdownPins[i], OUTPUT);
   }
+
+  // Inizializza il seme del generatore di numeri casuali usando una lettura analogica casuale
+  randomSeed(analogRead(A0));
 }
 
 // Funzione per accendere i LED uno alla volta a intervalli regolari come conto alla rovescia
